@@ -66,9 +66,13 @@
     <Compile Include="Assets\Scripts\IntroVideo\MovingToLogin.cs" />
     <Compile Include="Assets\Scripts\LoginScene\GameLogin.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MenuFunctions.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Asteroid Script\AsteroidBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Asteroid Script\AsteroidSpawner.cs" />
     <Compile Include="Assets\Scripts\SpaceShooter\BackGroundScroll.cs" />
-    <Compile Include="Assets\Scripts\SpaceShooter\SpaceShip\PlayerBullet.cs" />
-    <Compile Include="Assets\Scripts\SpaceShooter\SpaceShip\SpaceShipController.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Enemy Script\EnemyBehaviour.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Enemy Script\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Player Script\PlayerBullet.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Player Script\SpaceShipController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

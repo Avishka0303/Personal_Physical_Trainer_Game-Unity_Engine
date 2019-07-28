@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\SpaceShooter\Enemy Script\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\SpaceShooter\Player Script\PlayerBullet.cs" />
     <Compile Include="Assets\Scripts\SpaceShooter\Player Script\SpaceShipController.cs" />
+    <Compile Include="Assets\Scripts\SpaceShooter\Progress\ProgressFiller.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

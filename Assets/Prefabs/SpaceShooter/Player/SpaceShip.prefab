@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 2041190693934506010}
   - component: {fileID: 224967975}
   - component: {fileID: 3126490818462727312}
+  - component: {fileID: 1176315000308054016}
   m_Layer: 0
   m_Name: SpaceShip
   m_TagString: Untagged
@@ -195,14 +196,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   com_port: COM4
   baud_rate: 115200
-  read_timeout: 3000
   max_angle: 90
   min_angle: -90
   player_speed: 2
-  player_bullet: {fileID: 7968168697685262356, guid: 0783b964ff0b1624ca553045e5da6d60,
+  shoot: {fileID: 8300000, guid: 07a46fe4cb02afa409a3fea4d392959c, type: 3}
+  is_Serial: 0
+  auto_attack: 0
+  autoSerial: 1
+  player_bullet: {fileID: 7470718917898129222, guid: 54224e0fe0e104d40a598e23ecdd2959,
     type: 3}
   attack_point: {fileID: 167138239}
-  attack_timer: 0.3
+  attack_timer: 0.6
 --- !u!82 &3126490818462727312
 AudioSource:
   m_ObjectHideFlags: 0
@@ -299,3 +303,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1176315000308054016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041190693934506017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portName: COM4
+  baudRate: 115200
+  messageListener: {fileID: 2041190693934506017}
+  reconnectionDelay: 1000
+  maxUnreadMessages: 2

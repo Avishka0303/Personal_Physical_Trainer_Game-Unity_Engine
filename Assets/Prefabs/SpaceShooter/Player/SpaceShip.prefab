@@ -202,7 +202,7 @@ MonoBehaviour:
   shoot: {fileID: 8300000, guid: 07a46fe4cb02afa409a3fea4d392959c, type: 3}
   is_Serial: 0
   auto_attack: 0
-  autoSerial: 1
+  autoSerial: 0
   player_bullet: {fileID: 7470718917898129222, guid: 54224e0fe0e104d40a598e23ecdd2959,
     type: 3}
   attack_point: {fileID: 167138239}
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portName: COM4
-  baudRate: 115200
+  baudRate: 9600
   messageListener: {fileID: 2041190693934506017}
   reconnectionDelay: 1000
   maxUnreadMessages: 2

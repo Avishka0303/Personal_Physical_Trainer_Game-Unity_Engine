@@ -24,4 +24,8 @@ public class MenuFunctions : MonoBehaviour {
     public void Options() {
         SceneManager.LoadScene(scene_dict["options"]);
     }
+
+    public void Exit() {
+        Application.Quit();
+    }
 }

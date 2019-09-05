@@ -362,6 +362,12 @@
     <Reference Include="System.Buffers">
       <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Assets/Plugins/Database/System.Buffers.dll</HintPath>
     </Reference>
+    <Reference Include="BplusDotNet">
+      <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Assets/Simple-Database/Core/Third party/BplusDotNet/BplusDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Assets/Simple-Database/Core/Third party/Json.Net.Unity3D/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -370,12 +376,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="BplusDotNet">
-      <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Assets/Simple-Database/Core/Third party/BplusDotNet/BplusDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Academic Projects/EMBEDDED PROJECT/REAL PROJECT/UNITY PROJECT/GameDemonstrationMID/Assets/Simple-Database/Core/Third party/Json.Net.Unity3D/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

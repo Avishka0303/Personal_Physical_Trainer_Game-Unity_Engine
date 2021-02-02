@@ -194,15 +194,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d2560393c9e3d47a4b45a68b5785b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  com_port: COM4
-  baud_rate: 115200
   max_angle: 90
   min_angle: -90
   player_speed: 2
   shoot: {fileID: 8300000, guid: 07a46fe4cb02afa409a3fea4d392959c, type: 3}
-  is_Serial: 0
-  auto_attack: 0
-  autoSerial: 0
+  auto_attack: 1
+  autoSerial: 1
+  warning_text: {fileID: 0}
+  minYaw: -20
+  maxYaw: 20
   player_bullet: {fileID: 7470718917898129222, guid: 54224e0fe0e104d40a598e23ecdd2959,
     type: 3}
   attack_point: {fileID: 167138239}
@@ -219,7 +219,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.51
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portName: COM4
-  baudRate: 9600
+  baudRate: 115200
   messageListener: {fileID: 2041190693934506017}
   reconnectionDelay: 1000
   maxUnreadMessages: 2
